@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         result = self.app.get('/') 
 
         # verifica o retorno do conteudo da pagina
-        self.assertRegex(result.data.decode(), "Bora acabar com isso logo.")
+        self.assertRegex(result.data.decode(), "Bora acabar com isso logo!")
 
 
 if __name__ == "__main__":
